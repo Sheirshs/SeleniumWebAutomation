@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="10" total="16" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-20T22:16:11 IST" name="Suite" finished-at="2021-10-20T22:16:29 IST" duration-ms="17656">
+    <groups>
+    </groups>
+    <test started-at="2021-10-20T22:16:11 IST" name="Test" finished-at="2021-10-20T22:16:29 IST" duration-ms="17656">
+      <class name="testcases.ProductPage">
+        <test-method signature="AddProductToCart()[pri:0, instance:testcases.ProductPage@6973bf95]" started-at="2021-10-20T22:16:25 IST" name="AddProductToCart" finished-at="2021-10-20T22:16:27 IST" duration-ms="1796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProductToCart -->
+      </class> <!-- testcases.ProductPage -->
+      <class name="testcases.SearchPage">
+        <test-method signature="search()[pri:0, instance:testcases.SearchPage@6ce139a4]" started-at="2021-10-20T22:16:24 IST" name="search" finished-at="2021-10-20T22:16:25 IST" duration-ms="1603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- testcases.SearchPage -->
+      <class name="testcases.Assertions">
+        <test-method signature="assertinfo()[pri:0, instance:testcases.Assertions@229d10bd]" started-at="2021-10-20T22:16:28 IST" name="assertinfo" finished-at="2021-10-20T22:16:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertinfo -->
+      </class> <!-- testcases.Assertions -->
+      <class name="testcases.CheckoutPage">
+        <test-method signature="func()[pri:0, instance:testcases.CheckoutPage@2ddc8ecb]" started-at="2021-10-20T22:16:27 IST" name="func" finished-at="2021-10-20T22:16:28 IST" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- func -->
+      </class> <!-- testcases.CheckoutPage -->
+      <class name="testcases.LogoutPage">
+        <test-method signature="logouttest()[pri:0, instance:testcases.LogoutPage@47542153]" started-at="2021-10-20T22:16:28 IST" name="logouttest" finished-at="2021-10-20T22:16:28 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logouttest -->
+      </class> <!-- testcases.LogoutPage -->
+      <class name="testcases.LoginPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginPage@2f177a4b]" started-at="2021-10-20T22:16:11 IST" name="setup" finished-at="2021-10-20T22:16:16 IST" duration-ms="4936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintest(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginPage@2f177a4b]" started-at="2021-10-20T22:16:16 IST" name="logintest" data-provider="getdata" finished-at="2021-10-20T22:16:24 IST" duration-ms="7104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sheirsh.bittu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[S9837236794]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.LoginPage@2f177a4b]" started-at="2021-10-20T22:16:28 IST" name="close" finished-at="2021-10-20T22:16:29 IST" duration-ms="694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.LoginPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
